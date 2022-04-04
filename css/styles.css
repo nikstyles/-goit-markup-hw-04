@@ -306,7 +306,6 @@ ul {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.16;
-
   text-align: center;
 }
 
@@ -347,6 +346,70 @@ ul {
   border-radius: 0px 0px 4px 4px;
 }
 
+.icon-social-list {
+  margin-top: 16px;
+}
+
+.icon-social-link,
+.icon-social-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-social-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.icon-social-link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: #fff;
+  fill: #afb1b8;
+}
+
+.icon-social-link:hover,
+.icon-social-link:focus {
+  background: var(--accent-color);
+  fill: #fff;
+}
+
+/* Постоянные клиенты */
+.title-company {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.16;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.company-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.company-item {
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+
+.company-item:hover,
+.company-item:focus {
+  border-color: var(--accent-color);
+}
+
+.company-link {
+  display: flex;
+  padding: 16px 32px;
+  fill: #afb1b8;
+}
+
+.company-link:hover,
+.company-link:focus {
+  fill: var(--accent-color);
+}
+
 /* Foooter */
 .footer {
   background-color: var(--footer-bg-color);
@@ -384,6 +447,39 @@ ul {
 .tel:hover,
 .tel:focus {
   color: var(--accent-color);
+}
+
+.flex-footer,
+.flex-list {
+  display: flex;
+}
+
+.ftr-title-social {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+  margin-bottom: 20px;
+}
+
+.ftr-social {
+  margin-left: 70px;
+  padding-top: 12px;
+}
+
+.icon-ftr {
+  display: flex;
+  padding: 12px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  fill: var(--primary-white-color);
+}
+
+.icon-ftr:hover,
+.icon-ftr:focus {
+  background: var(--accent-color);
 }
 
 /* ------------ Page Portfolio -------------- */
